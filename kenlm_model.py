@@ -350,6 +350,8 @@ if __name__ == "__main__":
 
     '''
         模型训练与生成
+        
+        这里注意save_path是存放一些生成文件的路径
     '''
     # 模型加载
     km = kenlm_model(save_path = 'output',project = 'test2',\
